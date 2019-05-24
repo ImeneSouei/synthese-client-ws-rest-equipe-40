@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Liste des Produits</title>
+<link rel="stylesheet"  href="./resources/style.css" /><link rel="stylesheet" href="./css/bootstrap.css" />
+</head>
+<body>
+
+	<div class="bar">
+		<nav class="container">
+			<a href="index3.html">Accueil</a> 
+			<a href="index2.html">lister Magasins</a>
+		</nav>
+	</div>
+  <input type="button"  value ="afficherles produits"  onclick="chargerProduits()">
+  <div id="listProduits">
+       <table>
+          <thead>
+             <tr>
+  
+     <th>IdProduit</th><th>NomProduit</th><th>STOCK</th><th>prix</th>
+         </tr>
+         </thead>
+         <tbody id="tableBody">
+         
+         </tbody>
+      </table>
+      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="js/application.js"></script>
+  </div>
+</body>
+</html>
